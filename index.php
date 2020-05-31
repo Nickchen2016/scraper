@@ -11,7 +11,12 @@
 <?php
     $stringOne = 'lookin turts on ';
     $stringTwo = 'https://www.youtube.com/watch?v=U2EliFC9NrQ&t=14s';
-    echo $stringOne.$stringTwo;
+    //echo $stringOne.$stringTwo;
+    //echo "$stringOne $stringTwo \"waaa\""; //double quote will concatenate two var together
+    //echo $stringOne[0];
+    //echo strlen($stringTwo);
+    // echo strtoupper($stringOne);
+    echo preg_replace('/l/','zz',$stringOne); //use regex to relpace part of str
 ?>
 </body>
 </html>
