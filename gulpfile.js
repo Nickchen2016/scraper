@@ -14,7 +14,7 @@ function watch(){
         proxy: 'http://localhost:8080/find/'
     });
     gulp.watch('./scss/**/*.scss', style);
-    gulp.watch('*.php').on('change', browserSync.reload);
+    gulp.watch('./*.php').on('change', browserSync.reload);
 }
 
 exports.style = style;

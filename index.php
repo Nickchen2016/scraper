@@ -1,10 +1,3 @@
-<?php
-    $stringOne = 'Here is my email ';
-    $stringTwo = 'nchen2020@gmail.com';
-    echo $stringOne.$stringTwo;
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +8,10 @@
 </head>
 <body>
 
-    <?php
-        echo 'Hello world!!'
-    ?>
+<?php
+    $stringOne = 'lookin turts on ';
+    $stringTwo = 'https://www.youtube.com/watch?v=U2EliFC9NrQ&t=14s';
+    echo $stringOne.$stringTwo;
+?>
 </body>
 </html>
