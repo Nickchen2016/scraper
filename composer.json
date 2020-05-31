@@ -1,0 +1,7 @@
+{
+    "name": "scraper",
+    "description": "php-scraper",
+    "require": {
+        "fabpot/goutte": "^3.2"
+    }
+}
