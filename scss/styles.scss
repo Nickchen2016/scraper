@@ -1,6 +1,8 @@
-$color: red;
+$color: black;
+$fontStyle: 'sans-serif';
 
 body {
     background-color: $color;
-    color: white;
+    color: grey;
+    font-family: $fontStyle;
 }
